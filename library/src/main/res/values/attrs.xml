@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WeiboProgressView">
+        <attr name="wpv_color" format="color" />
+        <attr name="wpv_auto_fade" format="boolean" />
+        <attr name="wpv_padding" format="dimension" />
+        <attr name="wpv_ring_width" format="dimension" />
+    </declare-styleable>
+
+</resources>
