@@ -7,7 +7,7 @@ ProgressView like the one in Weibo
 
 ## Download
 
-Step 1. Add the JitPack repository to your your root build.gradle
+### Step 1. Add the JitPack repository to your your root build.gradle
 
 ```groovy
 allprojects {
@@ -18,7 +18,7 @@ allprojects {
 }
 ```
 
-Step 2. Add WeiboProgressView to your dependencies
+### Step 2. Add WeiboProgressView to your dependencies
 
 ```groovy
 dependencies {
@@ -28,7 +28,7 @@ dependencies {
 
 ## Usage
 
-### Step 1.Add WeiboProgressView to your layout file
+### Step 1. Add WeiboProgressView to your layout file
 
 ```xml
     <com.zhuhean.weiboprogressview.WeiboProgressView xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -43,11 +43,11 @@ dependencies {
 ```
 
 Attribute explanation:
-wpv_color: the main color of WeiboProgressView
-wpv_padding: the width of the gap between the ring and the progress oval
-wpv_ring_width: the width of the outer ring
+- wpv_color: the main color of WeiboProgressView
+- wpv_padding: the width of the gap between the ring and the progress oval
+- wpv_ring_width: the width of the outer ring
 
-### Step 2.Using WeiboProgressView in your Java class
+### Step 2. Using WeiboProgressView in your Java class
 
 ```java
 WeiboProgressView weiboProgressView = (WeiboProgressView) findViewById(R.id.progress);
