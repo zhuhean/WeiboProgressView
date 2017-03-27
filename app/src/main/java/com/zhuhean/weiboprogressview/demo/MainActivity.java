@@ -22,11 +22,12 @@ public class MainActivity extends AppCompatActivity {
                 animate();
             }
         });
+        getSupportActionBar().hide();
     }
 
     private void animate() {
         ValueAnimator valueAnimator = ValueAnimator.ofInt(0, 100);
-        valueAnimator.setDuration(1000);
+        valueAnimator.setDuration(2000);
         valueAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator valueAnimator) {
